@@ -40,6 +40,8 @@ type Page struct {
 	// Title of this page
 	Title string
 
+	Summary string
+
 	// Template this page uses for rendering. Defaults to "default.html".
 	Template string
 
